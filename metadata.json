@@ -1,0 +1,6 @@
+{
+  "name": "GLITCHZ",
+  "description": "Boutique e-commerce streetwear moderne et haut de gamme GLITCHZ. Esthétique sombre, minimaliste et épurée en noir et violet.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

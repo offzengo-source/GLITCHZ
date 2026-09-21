@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-black: #000000;
+    --color-violet: #8B00FF;
+    --color-violet-light: #A855F7;
+    --color-violet-hover: #7700db;
+    --color-violet-border: rgba(139, 0, 255, 0.35);
+  }
+
+  body {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6, .font-display {
+    font-family: 'Poppins', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    font-weight: 700;
+  }
+}
+
+/* Custom discreet scrollbar in black and violet */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+::-webkit-scrollbar-thumb {
+  background: #1f0a33;
+  border-radius: 2px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #8B00FF;
+}
+
+/* Minimal fine borders and subtle transitions */
+.border-violet-subtle {
+  border-color: rgba(139, 0, 255, 0.3);
+}
+
+.border-violet-active {
+  border-color: #8B00FF;
+}
+
+/* Clean button hover states: smooth color change, slight darkening */
+.btn-violet {
+  background-color: #8B00FF;
+  color: #ffffff;
+  transition: background-color 0.2s ease, opacity 0.2s ease;
+}
+
+.btn-violet:hover {
+  background-color: #7700db;
+}
+
+.btn-violet:active {
+  background-color: #6500bc;
+}
